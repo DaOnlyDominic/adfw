@@ -23,6 +23,12 @@
 			}
 			
 		</style>
+		<script>
+			function doSubmit(frm) {
+				var val = frm.awesomeness.value();
+				alert("You " + val + " awesome?");
+			}
+		</script>
 		<head>
 				<title>ANDREW'S WEBSITE</title>
 		</head>
@@ -34,20 +40,27 @@
 				<a href = ""><img scource = "http://favim.com/media/uploads/images/610/140212/funny-baby-funny-people-funny-pictures-funny-quotes-Favim.com-1357441.jpg"></a>
 			</div>
 			<div class = "DAILLUMINATE">
-				<p>
-					<label>?</label>
-					<input type = "checkbox"
-						id = "chkAwesome"
-						value = "ruAwesome" />
-					<label for = "chkAwesome"> Are You Awesome?</label>
-				</p>
-				<p>
-					<label>?</label>
-					<input type = "checkbox"
-						id = "chkNot"
-						value = "ruNot" />
-					<label for = "chkNot"> Are You Not?</label>
-				</p>
+				<form>
+					<p>
+						<label>?</label>
+						<input type = "radio"
+							name = "awesomeness"
+							id = "chkAwesome"
+							value = "ruAwesome" />
+						<label for = "chkAwesome"> Are You Awesome?</label>
+					</p>
+					<p>
+						<label>?</label>
+						<input type = "radio"
+							name = "awesomeness"
+							id = "chkNot"
+							value = "ruNot" />
+						<label for = "chkNot"> Are You Not?</label>
+					</p>
+					<p>
+						<input type = "submit" value = "Submit" />
+					</p>
+				</form>
 			</div>
 		</body>
 	</html>
