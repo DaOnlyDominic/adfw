@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>The Trumpy Website!!</title>
+			<h1>The Trumpy Website!!</h1>
+			<img src="http://1.bp.blogspot.com/-LNg2zm5JCbc/VcfDuCE7tzI/AAAAAAAAktw/f6ybO-AhfFY/s320/trump-head-bob.gif"/>
+		</head>
+		<body>
+			<div class="floopy">
+				<img src="http://1.bp.blogspot.com/-LNg2zm5JCbc/VcfDuCE7tzI/AAAAAAAAktw/f6ybO-AhfFY/s320/trump-head-bob.gif">
+			</div>
+		</body>
+	</html>
